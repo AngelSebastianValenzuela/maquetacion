@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #943A3B;
+    padding: 20px;
+}
+
+header {
+	max-width: 1000px;
+	min-height: 130px;
+	background: #BB0E24;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,d24b5a+9,ba2737+51,d24b5a+93,f18e99+100 */
+background: linear-gradient(to bottom,  #efc5ca 0%,#d24b5a 9%,#ba2737 51%,#d24b5a 93%,#f18e99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+#logo {
+	width: 320px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	animation: 1s entradalogo 1;
+}
+
+
+#logo img:hover {
+
+	filter: brightness(1.0);
+}
+
+#horizontal {
+	max-width: 1000px;
+	min-height: 50px;
+	background: #000;
+	margin: 0 auto;
+}
+#horizontal ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+}
+#horizontal a:hover{
+	background: #069;
+}
+#horizontal a {
+	color: #fff;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	background: #000;
+}
+#banner {
+	max-width: 1000px;
+	min-height: 250px;
+	background: #EF2024;
+	margin: 0 auto;
+}
+#contenedor {
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+#vertical {
+	width: 300px;
+	min-height: 700px;
+	background: #BB0E24;
+	float: left;
+}
+#vertical ul {
+	list-style: none;
+	padding: 10px;
+}
+#vertical a {
+	display: block;
+	color: #000;
+	background: #fff;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+#vertical a:hover {
+	background: #069;
+}
+#vertical a:hover img {
+	animation: 1s rotacion 1;
+}
+
+#contenido {
+	width: 700px;
+	min-height: 700px;
+	background: #fff;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+#contenido h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#contenido p {
+	margin-bottom: 10px;
+	font-size: 18px;
+	text-align: justify;
+}
+.img-izq {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 250px;
+	border: 1px solid #ccc;
+}
+
+/*PIE DE PAGINA*/
+footer {
+	max-width: 1000px;
+    background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+
+/*PIE DE PAGINA*/
+
+/*KEYFRAMES*/
+
+#keyframe entradalogo {
+	0% 
+		transform: translateY(-200px);
+}
+
+#keyframe rotacion { 
+
+   0%
+	transform: rotate(270deg);	
+}
